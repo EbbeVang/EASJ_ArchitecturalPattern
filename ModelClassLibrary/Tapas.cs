@@ -28,8 +28,8 @@ namespace ModelClassLibrary
 
         public double Price
         {
-            get { return price; }
-            set { price = value; } //stykpris for hver tapas
+            get { return _price; }
+            set { _price = value; } //stykpris for hver tapas
         }
         
 

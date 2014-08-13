@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="56af2e20-e5a0-4627-8a0f-11be19c9f23f" name="TapasDomainModel" linkedPackageId="2e3b672a-2aa8-462c-b7ef-af609753a766" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="f40513b8-ca5b-45c1-a9c3-747d261258da">
+      <profileInstance Id="cf050fca-77a3-49d3-9ad6-9b40cb152956" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e6c891aa-f2ff-46bc-9bda-a15dbceb1396">
+      <profileInstance Id="8495e917-9e3d-4ff0-a631-851b5e12e4a0" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="53384ca3-e5ce-4450-9d53-99ab45d21332" name="Tapas" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c37eb9f8-722e-479d-88f9-8ebedb6446bb" />
+        <targetEnds>
+          <association Id="d88a5bcc-6e1c-4e8a-b3f0-70c896425c41" isDerived="false" sourceEndRoleName="Tapas" targetEndRoleName="Guest" isLeaf="false" isAbstract="false">
+            <classMoniker Id="981c7350-4ab5-4a17-8f46-a41f3421c041" LastKnownName="Guest" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cc20192d-473e-4fe9-8adf-6b30c12563c6" name="Tapas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="a51c27bc-5e84-44ac-acdf-6fe63d0651f2" name="Lower" value="*">
+                      <elementDefinition Id="fc60d1ea-30de-4e02-a76f-a2bd85710fc3" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="659a4553-503b-47c2-b860-3c1485c9f600" name="Upper" value="*">
+                      <elementDefinition Id="6d3ee55e-8476-436c-a443-12423b283f99" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="afe139f4-c7b1-4cd8-a39e-b4bdb5ed70fd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f6427109-fe9f-4700-a9ee-e26db5f78561" name="Guest" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="9dae90e6-b33c-4cbe-bb7f-52389f5fd512" name="Lower" value="*">
+                      <elementDefinition Id="be8997c5-9af4-4ade-acf4-eaedc5eb205e" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="f9079b44-00b6-446e-961b-5888a71781c2" name="Upper" value="*">
+                      <elementDefinition Id="89549eae-c6c7-4c3c-897f-478faf8a6391" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="14043ac9-6c45-4279-9305-4f105306e920" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f3dc70ce-cacf-4807-bcac-4c18e1fff450" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="981c7350-4ab5-4a17-8f46-a41f3421c041" name="Guest" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3343ae34-5eed-419a-8456-c9abb703079f" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="2e3b672a-2aa8-462c-b7ef-af609753a766" name="SWD-diagrams">
+    <elementDefinition Id="37fc0a8a-2492-4ecb-a255-333e9865ad1b" />
+  </package>
+</logicalClassDesignerModel>

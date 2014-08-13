@@ -13,5 +13,6 @@ namespace ModelClassLibrary
 
         private string phone;
         public string Phone {get; set;}
+
     }
 }
