@@ -24,15 +24,17 @@ namespace ModelClassLibrary
             set { name = value; }
         }
 
-        private double price;
+        private double _price;
 
         public double Price
         {
             get { return _price; }
             set { _price = value; } //stykpris for hver tapas
         }
-        
 
-        
+         public override string ToString()
+         {
+             return string.Format("TapasNo: {0}, Name: {1}, Price: {2}", tapasNo, name, _price);
+         }
     }
 }
