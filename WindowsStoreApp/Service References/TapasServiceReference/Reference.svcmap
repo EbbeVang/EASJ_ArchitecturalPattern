@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ad33dfa0-4c09-46ad-afe2-a6114dfdc908" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/Persitence/TapasService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="596c4d58-f4e9-4d06-a00d-cf49292ead7e" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Persitence/TapasService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="43bf1551-56cb-409c-8210-7fb79bcb8aac" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Persitence/TapasService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="cf05bff5-2455-4153-83ac-f220d5412acd" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Persitence/TapasService/mex" />
+    <MetadataFile FileName="ModelClassLibrary.xsd" MetadataType="Schema" ID="918107b1-9857-4dd5-aab2-195403fc42c4" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Persitence/TapasService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
